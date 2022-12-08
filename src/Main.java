@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         int resultado = suma(10,20,30);
-        System.out.println(resultado);
+        System.out.println("El resultado de la suma es: " + resultado);
 
         Coche miCoche = new Coche();
         miCoche.sumarPuerta();
-        System.out.println(miCoche.puertas);
+        miCoche.sumarPuerta();
+        System.out.println("El numero de puertas es: " + miCoche.puertas);
+
            }
     public static int suma(int a,int b,int c) {
         int sumatoria = a + b + c;
